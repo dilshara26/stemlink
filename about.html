@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/png" href="img/icon1.png" />
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap" rel="stylesheet">
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="about.css" />
+    <script defer src="about.js"></script>
+    <title>About</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+          <a href="index.html" class='logo-nav'><h2 class="nav__logo"><span class="stem">STEM</span> <span id="link" class="">link</span></h2></a>
+          
+          <ul class="nav__links">
+            <li class="nav__item">
+                <a class="nav__link" href="index.html">Home</a>
+            </li>
+            <li class="nav__item dropdown">
+                <a class="nav__link dropdown-toggle"  href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Explore</a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item dropdownItem" href="index.html#section--2">Our Classes</a></li>
+                  <li><a class="dropdown-item dropdownItem" href="index.html#section--3">Testimonials</a></li>
+                </ul>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="about.html">About Us</a>
+            </li> 
+            <li class="nav__item dropdown">
+              <a class="nav__link dropdown-toggle"  href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Learning</a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item dropdownItem" href="#">STEM link</a></li>
+                <li><a class="dropdown-item dropdownItem" href="#maths">Maths</a></li>
+                <li><a class="dropdown-item dropdownItem" href="#science">Science</a></li>
+                <li><a class="dropdown-item dropdownItem" href="#it">ICT</a></li>
+                <li><a class="dropdown-item dropdownItem" href="#english">English</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item dropdownItem" href="#almaths">C. Maths</a></li>
+                <li><a class="dropdown-item dropdownItem" href="#alphys">Physics</a></li>
+                <li><a class="dropdown-item dropdownItem" href="#alchem">Chemistry</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item dropdownItem" href="#robotics">Robotics</a></li>
+                <li><a class="dropdown-item dropdownItem" href="#photoshop">Photoshop</a></li>
+              </ul>
+            </li>
+            <li class="nav__item">  
+              <a class="nav__link nav__link--btn btn--show-modal" href="#sec">Contact Us</a>
+            </li>
+          </ul>
+          <i class="fas hamburger fa-bars fa-2x"></i>
+        </nav>  
+    </header>
+
+    <section class="section py-5" id="section--1">
+        <div class="vision">
+            <div class="row">
+                <div class="col-md-6 py-5 header-about-vision">
+                    <h2 class="vision-title"><span class="stem">STEM</span> <span class="link">link</span>  Empowers Teens by Building Skills for Their Future</h2>
+                    <p class="vision-description"> <span class="Vision-highlight">STEM link, where STEM stands for Science, Technology, Engineering, and Mathematics, was started to produce school students with the thinking style and skills that would be beneficial for them to meet the industry requirements.</span> <br><br>
+                      Most school students leave the school with a lack of skill set needed to fit into the job market unless they have a Diploma or a Bachelors Degree. Another unspoken fact is that most students in schools are taught without a clear direction nither ambition. 
+                      In the traditional educational environment, students are inclined towards memorizing facts and gaining grades. But most importantly, they lack analytical thinking, scientific thinking and creative arts.
+                      <br> <br>
+                      Our organization focuses on delivering competency in subjects such as Science, Mathematics, Language skills and information technology in accordance with school textbooks. 
+                     In the first level of expansion, we included courses that focus on engineering principles such as Robotics and Web development and courses that enhance the industry-level creative skills such as Photoshop & Graphic Designing.
+                     </p>    
+                </div>
+                <div class="col-md-6 vision-img ">
+                     <img src="img/about1.jpg" alt="about" class="img-fluid ps-5  splash-img"> 
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <section class="p-5 section classes-section" id="science">
+        <div class="classes class--box">
+            <div class="science py-5">
+                <h1 class="class--heading text-center ">SCIENCE</h1>
+                <p class="class--intro">The Science module contains teaching the textbook and practical demonstrations by linking them to real-world applications. 
+                  We classify them into sub-sections as Biology, Physics and Chemistry in order to teach each of those subsections with different approaches.</p>
+                <div class="accordion accordion-flush " id="accordionFlushExample">
+                    <div class="accordion-item ">
+                      <h2 class="accordion-header" id="flush-headingOne">
+                        <button class="accordion-button collapsed expand--btn" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                          Read More
+                        </button>
+                      </h2>
+                      <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                          <p>Grade range – 6 to 11</p>
+                          <p>Syllabi – Local, Cambridge & Edexcel</p>
+                          <p class="pt-5">Teaching methods</p>
+                          <ul>
+                            <li>We would be covering the complete syllabus in an adequate rate to face the term examinations</li>
+                            <li>All the lessons would be demonstrated practically through real world example digital clips that would create more sense and interest towards learning materials.</li>
+                            <li>Past paper discussion in the end of each lesson and each term.</li>
+                            <li>Past paper discussion in the end of each lesson and each term.</li>
+                          </ul>
+                          </div>
+                      </div>
+                    </div>
+                 </div>
+            </div>
+            <!-- Second item -->
+            <div class="science py-5" id = "maths">
+                <h1 class="class--heading text-center ">MATHEMATICS</h1>
+                <p class="class--intro">Mathematics is a subject that builds upon logical and analytical thinking. In order to teach this subject effectively, 
+                  the student has to be fully engaged throughout the lesson. 
+                  All the chapters in the syllabus will be covered in a very engaged and interactive manner where we inspire them to challenge their thinking by learning content in their own way and attempting higher-order questions.</p>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingTwo">
+                          <button class="accordion-button collapsed expand--btn" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                            Read More
+                          </button>
+                        </h2>
+                        <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                         
+                          
+                          <div class="accordion-body">
+                            <p class="text-lesson-desc pb-5">In a traditional environment, these subjects are being taught in a disengaged manner where the teacher explains every theorem and concept,
+                              and students copy them down, refer notes and practice questions. <br>
+                              This has been the main reason why most students are reluctant to learn mathematics don’t find the subject interesting. The genuine interest starts building when the students see the practical aspect of learning each module that led to mind-blowing inventions. 
+                              <br>
+                              This is the key issue we are going to tackle by our own experience as students who have learnt in a traditional system and also as the tutors who teach United Kindom students in a more advanced and technical form. </p>
+                            <p>Grade range – 6 to 11</p>
+                            <p>Syllabi – Local, Cambridge & Edexcel</p>
+                            <p class="pt-5">Teaching methods</p>
+                            <ul>
+                              <li>Building up the mathematical concepts through a logical flow of existing knowledge and reinforcement.</li>
+                              <li>A comprehensive question handbook will be created for each lesson capturing the core concepts in it.</li>
+                              <li>All the textbook questions and past paper questions will be discussed at the end of each lesson.</li>
+                              <li>Most importantly mathematical concepts will be taught intuitively and more practically without rigid memorization</li>
+                            </ul>
+                          </div>
+                        </div>
+                     </div>
+            </div>
+            <!--Third item-->
+            <div class="science py-5" id = "it">
+              <h1 class="class--heading text-center ">Information Technology </h1>
+              <p class="class--intro">Information and Communication module was designed to deliver a comprehensive and interesting experience with the fast-growing tools and technologies for all the school students beyond the textbook content. 
+                The module would cover both the practical and theoretical aspects in a greater depth and looking forward to add an industrial value for all the students by introducing them programming languages and heavily used tool. </p>
+              <div class="accordion accordion-flush " id="accordionFlushExample">
+                  <div class="accordion-item ">
+                    <h2 class="accordion-header" id="flush-headingOne">
+                      <button class="accordion-button collapsed expand--btn" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThird" aria-expanded="false" aria-controls="flush-collapseThird">
+                        Read More
+                      </button>
+                    </h2>
+                    <div id="flush-collapseThird" class="accordion-collapse collapse" aria-labelledby="flush-headingThird" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body">
+                        <p class="text-lesson-desc pb-5">
+                          The world moves fast with technology. Most of all, things get automated and IT knowledge turns out to be a fundamental skill for any job role. 
+                          After a thorough analysis of all the textbooks, we have noticed that most of the tools and software are outdated. <br>
+                          So, we have designed our course to lead the student to master the syllabus content and further explore these tools with the latest versions and techniques. Most importantly, exciting real-world projects are included for every age group under their knowledge levels. 
+                          If any student is willing to explore further has the opportunity to join our Skill Hub courses. 
+                        </p>
+                        <p>Grade range – 6 to 11</p>
+                        <p>Syllabi – Local, Cambridge & Edexcel</p>
+                        <p class="pt-5">Teaching methods</p>
+                        <ul>
+                          <li>Link every session with practical tools rather delivering just theorotical aspects</li>
+                          <li>Introduce Programming principles for students in all the grades in adequate manner</li>
+                          <li>Introduce Descrete Mathematics to students when teaching analytical and mathematical aspects in computing </li>
+                          <li>Building real-world interesting projects to give a 360 view on the subject</li>
+                        </ul>
+                        </div>
+                    </div>
+                  </div>
+               </div>
+          </div>
+            <div class="science py-5" id = "english">
+              <h1 class="class--heading text-center ">English</h1>
+              <p class="class--intro">The importance of Learning English cannot be denied and ignored since English is the greatest common language spoken between the nations. 
+                Through perfect practice and usage of English with a clear guidance would help you to be fluent in English which is a vital qualification for almost every aspect of modern world.  </p>
+              <div class="accordion accordion-flush " id="accordionFlushExample">
+                  <div class="accordion-item ">
+                    <h2 class="accordion-header" id="flush-headingOne">
+                      <button class="accordion-button collapsed expand--btn" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFifth" aria-expanded="false" aria-controls="flush-collapseFifth">
+                        Read More
+                      </button>
+                    </h2>
+                    <div id="flush-collapseFifth" class="accordion-collapse collapse" aria-labelledby="flush-headingFifth" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body">
+                        <p class="text-lesson-desc pb-5">
+                          An effective Language is the key for a successful communication. 
+                          It’s the way through which we share ideas, views, thoughts, and feelings with others. 
+                          There maybe over millions of languages in the world but why English stands ahead is that its application towards the modern aspects of knowledge in several fields such as medicine, engineering, education, entertainment etc. 
+                          It a believed fact that English Knowledge is required to come up in life. Some students fail to gain the literacy through the textbooks and workbooks even they study English for almost thirteen years at the school since it is not the way to be a professional in English and furthermore sufficient practice is not given at schools to learn English. Through easy to learn techniques and well-structured course you will be able to master the most common qualification required for almost every profession in the world. 
+                        </p>
+                        <p>Grade range – 6 to 11</p>
+                        <p>Syllabi – Local, Cambridge & Edexcel</p>
+                        <p class="pt-5">Teaching methods</p>
+                        <ul>
+                          <li>The well-structured tutes for all import aspects of the mechanisms of English Language.</li>
+                          <li>Improving your comprehension from interesting prose and verse from popular literary texts</li>
+                          <li>Everyday practice of composition and dictation of English language to improve your writing skills. </li>
+                          <li>Exam Target Questions and past papers would be covered in the class.</li>
+                          <li>You’ll be exposed to different cultures based on English Language to get idea about how language changes from region to region</li>
+                          
+                        </ul>
+                        </div>
+                    </div>
+                  </div>
+               </div>
+
+          </div>
+            <div class="course py-5" id = "robotics">
+              <h1 class="class--heading text-center ">Robotics With Arduino </h1>
+              <p class="class--intro">This course is a fresh take on learning robotics with arduino, standing out from the traditional tutorial guides on arduino, 
+                We take the students on a journey to build interesting Robotics projects from scratch . 
+                The students are taught to think creatively in and programmatically with the end goal of being able to convert their ideas into real world projects.
+              </p>
+              <div class="accordion accordion-flush " id="accordionFlushExample">
+                  <div class="accordion-item ">
+                    <h2 class="accordion-header" id="flush-headingOne">
+                      <button class="accordion-button collapsed expand--btn" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFourth" aria-expanded="false" aria-controls="flush-collapseFourth">
+                        Read More
+                      </button>
+                    </h2>
+                    <div id="flush-collapseFourth" class="accordion-collapse collapse" aria-labelledby="flush-headingFourth" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body">
+                        <p class="text-lesson-desc pb-5">
+                          <!-- This course is a fresh take on learning robotics with arduino, standing out from the traditional tutorial guides on arduino, 
+                          We take the students on a journey to build interesting Robotics projects from scratch . 
+                          The students are taught to think creatively in and programmatically with the end goal of being able to convert their ideas into real world projects. -->
+                          Any individual willing to learn Robotics with arduino from beginner to advanced is invited.
+                          The early stage of the course covers the entirety of the O/L , A/L and some higher education level knowledge in arduino. 
+                
+                        </p>
+                        <p>Requirements – No prior knowledge required</p>
+                        
+                        <p class="pt-5">Teaching methods</p>
+                        <ul>
+                          <li>Basic electronic knowledge will be taught to supplement the course</li>
+                          <li>The thinking style needed for programming will be taught step by step.</li>
+                          <li>Students will be guided in a build-as-you-go manner creating real world projects as they learn increasingly advanced concepts.</li>
+                        </ul>
+                        <p class="pt-5">What you will learn</p>
+                        <ul>
+                          <li>Learn to work with sensors to read real world data.</li>
+                          <li>Learn to work with Displays to communicate data.</li>
+                          <li>Learn to effectively use various kinds of motors and build cool wheeled robots.</li>
+                          <li>Learn to create a remote controlled car controlled by your phone through bluetooth.</li>
+                          <li>Students will be guided in a build-as-you-go manner creating real world projects as they learn increasingly advanced concepts.</li>
+                          <li>Ever dreamed of interacting with electronic components through the internet? The Internet of things with NodeMCU module will cover it.</li>
+                        </ul>
+                        </div>
+                    </div>
+                  </div>
+               </div>
+          </div>
+          <!-- Photoshop -->
+          <div class="course py-5" id = "photoshop">
+            <h1 class="class--heading text-center ">Photoshop</h1>
+            <p class="class--intro">This course is still under development by the Instructor. 
+              If you are interested in joining contacr us and keep your self reserved. We will inform you
+            as soon as we launched the course.</p>
+            <div class="accordion accordion-flush " id="accordionFlushExample">
+                <div class="accordion-item ">
+                  <h2 class="accordion-header" id="flush-headingOne">
+                    <button class="accordion-button collapsed expand--btn" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSixth" aria-expanded="false" aria-controls="flush-collapseSixth">
+                      Read More
+                    </button>
+                  </h2>
+                  <div id="flush-collapseSixth" class="accordion-collapse collapse" aria-labelledby="flush-headingSixth" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                      <!-- <p class="text-lesson-desc pb-5">
+                        An effective Language is the key for a successful communication. 
+                        It’s the way through which we share ideas, views, thoughts, and feelings with others. 
+                        There maybe over millions of languages in the world but why English stands ahead is that its application towards the modern aspects of knowledge in several fields such as medicine, engineering, education, entertainment etc. 
+                        It a believed fact that English Knowledge is required to come up in life. Some students fail to gain the literacy through the textbooks and workbooks even they study English for almost thirteen years at the school since it is not the way to be a professional in English and furthermore sufficient practice is not given at schools to learn English. Through easy to learn techniques and well-structured course you will be able to master the most common qualification required for almost every profession in the world. 
+                      </p>
+                      <p>Grade range – 6 to 11</p>
+                      <p>Syllabi – Local, Cambridge & Edexcel</p>
+                      <p class="pt-5">Teaching methods</p>
+                      <ul>
+                        <li>The well-structured tutes for all import aspects of the mechanisms of English Language.</li>
+                        <li>Improving your comprehension from interesting prose and verse from popular literary texts</li>
+                        <li>Everyday practice of composition and dictation of English language to improve your writing skills. </li>
+                        <li>Exam Target Questions and past papers would be covered in the class.</li>
+                        <li>You’ll be exposed to different cultures based on English Language to get idea about how language changes from region to region</li>
+                        
+                      </ul> -->
+                      </div>
+                  </div>
+                </div>
+           </div>
+          </div>
+
+           <div class="ALevel py-5" id = "almaths">
+            <h1 class="class--heading text-center ">Combined Mathematics A/Level </h1>
+            <p class="class--intro">Advance Level Mathematics would be placed at whole new level with relavant to the general Mathematics and Statistics you have learned so far. 
+              Most importantly learning these subject from young tutors would make you feel more closer to the subject and also our tutors would be working very closely with the students by understanding their mindsets.
+            </p>
+            <div class="accordion accordion-flush " id="accordionFlushExample">
+                <div class="accordion-item ">
+                  <h2 class="accordion-header" id="flush-headingOne">
+                    <button class="accordion-button collapsed expand--btn" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSeventh" aria-expanded="false" aria-controls="flush-collapseSeventh">
+                      Read More
+                    </button>
+                  </h2>
+                  <div id="flush-collapseSeventh" class="accordion-collapse collapse" aria-labelledby="flush-headingSeventh" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                      <p class="text-lesson-desc pb-5">
+                        
+                      </p>
+                      <p>Grade range – Advance Level Physical Stream</p>
+                      <p>Syllabi – Local</p>
+                      <p class="pt-5">Teaching methods</p>
+                      <ul>
+                        <li>We would be covering both the Applied and Pure Syllabi way before the examination</li>
+                        <li>We would be discussing the past papers before 2000s as well inorder to challenge and polish the thinking</li>
+                        <li>All the past paper questions will be discussed by the end of the lesson </li>
+                        <li>A Special set of model questions would be discussed before going in to the past papers</li>
+                      </ul>
+                      </div>
+                  </div>
+                </div>
+             </div>
+        </div>
+
+        <div class="ALevel py-5" id = "alphys">
+          <h1 class="class--heading text-center ">Physics </h1>
+          <p class="class--intro">Advance Level physics could be considerd as a great foundation for the exploration of Deep Physical concepts.
+            But most of the time students end up giving up this subject due to the lack of intrest tutors create towards this. So, why don't you give us a chance and see? We would create the intrest, you would self-learn the rest.</p>
+          <div class="accordion accordion-flush " id="accordionFlushExample">
+              <div class="accordion-item ">
+                <h2 class="accordion-header" id="flush-headingOne">
+                  <button class="accordion-button collapsed expand--btn" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEight" aria-expanded="false" aria-controls="flush-collapseEight">
+                    Read More
+                  </button>
+                </h2>
+                <div id="flush-collapseEight" class="accordion-collapse collapse" aria-labelledby="flush-headingEight" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">
+                    <p class="text-lesson-desc pb-5">
+      
+                    </p>
+                    <p>Grade range – Advance Level Physical Stream</p>
+                    <p>Syllabi – Local</p>
+                    <p class="pt-5">Teaching methods</p>
+                    <ul>
+                      <li>We will be covering the full syllabus and most importantly we will make sure the student understands the 
+                        core concepts in even tough lessons like Magnetic Fields, Electronics and etc.</li>
+                      <li>All the past paper questions will be discussed by the end of the lesson</li>
+                      <li>A Special set of model questions will be discussed to give a further knowledge on the content</li>
+                     
+                    </ul>
+                    </div>
+                </div>
+              </div>
+           </div>
+      </div>
+
+      <div class="ALevel py-5" id = "alchem">
+        <h1 class="class--heading text-center ">Chemistry </h1>
+        <p class="class--intro">Chemistry syllabus is considerd as one of the longest syllabi from all the Advance Level streams. Most of the materials students use to memorize could be logically and explained and understood by figuring out different patterns.
+          We have alwyas used to create innovative methods to understand content while we were studying and teaching. Tutors would be sharing all those tactics with you to understand this subject with more sense.</p>
+        <div class="accordion accordion-flush " id="accordionFlushExample">
+            <div class="accordion-item ">
+              <h2 class="accordion-header" id="flush-headingOne">
+                <button class="accordion-button collapsed expand--btn" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseNine" aria-expanded="false" aria-controls="flush-collapseNine">
+                  Read More
+                </button>
+              </h2>
+              <div id="flush-collapseNine" class="accordion-collapse collapse" aria-labelledby="flush-headingNine" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  <p class="text-lesson-desc pb-5">
+                    
+                  </p>
+                  <p>Grade range – Advance Level Physical Stream</p>
+                  <p>Syllabi – Local</p>
+                  <p class="pt-5">Teaching methods</p>
+                  <ul>
+                    <li>All the lessons would be covered way prior to the deadlines and  give the relavant weightage and time  to the tough lessons like Inorganic, Organic and Physical Chemistry</li>
+                    <li>Instead of filling up books with multiple notes, we would teaching much efficient and understandable methods which students often finds comfortable in examinations</li>
+                    <li>We would be inventing creative methods to ace the Organic conversions</li>
+                    <li>All the past paper questions would be discussed after the end of every lesson</li>
+                  </ul>
+                  </div>
+              </div>
+            </div>
+         </div>
+    </div>
+
+         </div>
+    </section>
+
+    <section class="section section--sign-up">
+      <div class="section__title">
+        <h3 class="section__header">
+          Reach us to hear our plan we have to change your future
+        </h3>
+      </div>
+      <button class="btn-footer btn--show-modal">Contact Us Now</button>
+    </section>
+
+
+    <footer class="footer">
+      <ul class="footer__nav">
+        <li class="footer__item">
+          <a class="footer__link" href="index.html">Home</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#section--2">Testimonials</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">FAQ</a>
+        </li>
+        <!-- <li class="footer__item">
+          <a class="footer__link" href="#">Careers</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Blog</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Contact Us</a>
+        </li> -->
+      </ul>
+      <h2 class="nav__logo text-center"><span class="stem">STEM</span> link</h2>
+      <p class="text-center copyright">&copy; Copyright 2021 STEM link
+      </p>
+        <!-- /////////////////////////////////////////////////////////
+                               Nav mobile
+        ///////////////////////////////////////////////////////// -->
+
+        <div id="mobile-navbar" class="mobile-navbar mobile-navbar-edit ">
+          <div class="m-navbar-description">
+              <!-- <img src="images/ezgif.com-gif-maker-removebg-preview.png" alt="" class="img-fluid m-navbar-image"> -->
+              <ul class="m-nav-list">
+                  <li class="m-nav-item"><a href="index.html">Home</a></li>
+                  <li class="m-nav-item"><a href="index.html#section--2">Classes</a></li>
+                  <li class="m-nav-item"><a href="index.html#section--3">Testimonials</a></li>
+                  <li class="m-nav-item"><a href="about.html">About Us</a></li>
+                  <li class="m-nav-item btn--show-modal"><a href="">Contact Us</a></li>
+              </ul>
+          </div>
+      </div> 
+
+
+      <div class="modalel hidden">
+        <button class="btn--close-modal">&times;</button>
+        <h2 class="modal__header">
+         <span class="highlight">Mail Us</span>
+        </h2>
+        <form class="modal__form" action="https://formsubmit.co/stemlinkonline@gmail.com" method="POST">
+          <input type="hidden" name="_subject" value="New Student!">
+          <input type="hidden" name="_cc" value="another@email.com">
+          <!-- <input type="hidden" name="_next" value="index.html"> -->
+          <input type="hidden" name="_captcha" value="false">
+          <label>Name</label>
+          <input type="text" name="name" />
+          <label>Contact Number</label>
+          <input type="text"  name="contact" />
+          <label>Email Address</label>
+          <input type="email" name="email" />
+          <button type="submit" class="btn1" style= "color:white">Submit</button>
+        </form>
+        <h2 class="text-center pt-5 pb-4" >OR</h2>
+        <div>
+          <p class="text-center display-6 whatsapp-us">Call or Whatsapp Us</p>
+          <p class="contact--text text-center">Dilshara Hasanka <span class="mx-3"></span>+94 77 2880463</p>
+          <p class="contact--text text-center">Manupa Chathwara <span class="mx-3"></span>+94 70 2703440</p>
+          <p class="contact--text text-center">Sandaru Rashmika <span class="mx-3"></span>+94 76 1538007</p>
+  
+  
+        </div>
+      </div>  
+      <div class="overlay hidden"></div>
+
+      
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="about.js"></script>
+</body>
+</html>
